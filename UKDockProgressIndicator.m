@@ -38,7 +38,6 @@
 	if ( self != nil )
 	{
 		savedDockIcon = [[NSApp applicationIconImage] copy];
-		[savedDockIcon setScalesWhenResized:YES];
 	}
 	return self;
 }
